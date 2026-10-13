@@ -1,0 +1,168 @@
+/* AI, One Concept at a Time — book theme (layered over the docsify default) */
+
+:root {
+  --book-accent: #4c6ef5;
+  --book-ink: #24292f;
+  --book-muted: #6b7280;
+}
+
+/* cover page */
+.cover {
+  text-align: center;
+}
+.cover .cover-main {
+  margin-top: 12vh;
+}
+.cover h1 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+.cover .link-button {
+  background: var(--book-accent);
+  border-color: var(--book-accent);
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 8px;
+}
+
+/* reading column */
+.content {
+  padding: 20px 52px 80px;
+  max-width: 100%;
+}
+.markdown-section {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 8px 16px 40px;
+  color: var(--book-ink);
+  font-size: 16.5px;
+  line-height: 1.75;
+}
+.markdown-section p {
+  margin: 0.9em 0;
+}
+.markdown-section img {
+  border-radius: 10px;
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.08);
+  margin: 8px 0;
+}
+.markdown-section blockquote {
+  border-left: 4px solid var(--book-accent);
+  background: #f6f8fe;
+  border-radius: 0 8px 8px 0;
+  padding: 8px 18px;
+  color: #3b4252;
+}
+.markdown-section pre {
+  border-radius: 10px;
+  background: #1f2430;
+  padding: 16px 18px;
+  overflow-x: auto;
+}
+.markdown-section code {
+  border-radius: 6px;
+}
+.markdown-section h1,
+.markdown-section h2,
+.markdown-section h3 {
+  line-height: 1.3;
+  margin-top: 1.6em;
+}
+.markdown-section hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 2em auto;
+  width: 60%;
+}
+
+/* byline + callouts */
+.markdown-section > p em:has(> a) {
+  color: var(--book-muted);
+}
+.markdown-section blockquote p:has(> strong:first-child ~ *) {
+  font-size: 0.95em;
+}
+
+/* prev / next navigation */
+.book-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 48px;
+  padding-top: 20px;
+  border-top: 1px solid #e5e7eb;
+}
+.book-nav-link {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-width: 46%;
+  padding: 12px 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+.book-nav-link:hover {
+  border-color: var(--book-accent);
+  background: #f6f8fe;
+}
+.book-nav-link:nth-child(2) {
+  text-align: right;
+  margin-left: auto;
+}
+.book-nav-dir {
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--book-muted);
+}
+.book-nav-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--book-ink);
+}
+.book-nav-empty {
+  flex: 1;
+}
+
+/* sidebar */
+.sidebar {
+  border-right: 1px solid #eef0f3;
+}
+.sidebar .app-name strong {
+  color: var(--book-ink);
+}
+.sidebar-nav > ul > li > p {
+  font-weight: 700;
+  margin: 18px 12px 6px;
+  color: var(--book-ink);
+}
+sidebar .book-nav {
+  display: none;
+}
+
+/* loading state */
+.app-loading {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: var(--book-muted);
+}
+
+@media (max-width: 768px) {
+  .markdown-section {
+    padding: 8px 14px 32px;
+    font-size: 15.5px;
+  }
+  .book-nav {
+    flex-direction: column;
+  }
+  .book-nav-link,
+  .book-nav-link:nth-child(2) {
+    max-width: 100%;
+    text-align: left;
+    margin-left: 0;
+  }
+}

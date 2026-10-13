@@ -1,0 +1,17 @@
+{
+  "name": "book-builder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Builds the AI, One Concept at a Time book from the Substack 16-week series",
+  "type": "module",
+  "scripts": {
+    "build": "node build_book.mjs",
+    "build:force": "node build_book.mjs --force"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "node-html-parser": "^9.0.4",
+    "turndown": "^7.2.4",
+    "turndown-plugin-gfm": "^1.0.2"
+  }
+}

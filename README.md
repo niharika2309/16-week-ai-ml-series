@@ -1,2 +1,101 @@
-# ai-one-concept-at-a-time
-AI, One Concept at a Time A beginner-friendly journey into Artificial Intelligence and Machine Learning  By Niharika Batra  No complicated jargon. No assumption that you already know AI. Just one concept at a time.
+# AI, One Concept at a Time
+
+A beginner-friendly **16-week journey into Artificial Intelligence and Machine Learning** — by [Niharika Batra](https://niharikabatra.substack.com).
+
+No complicated jargon. No assumption that you already know AI. Just one concept at a time.
+
+This book collects the full series: each article is a page, each week is a chapter.
+
+- [**Introduction — 16 Weeks to AI: Let’s Stop Feeling Like We’re Behind**](00-introduction/index.md)
+- [**Week 1 — The Big Picture & Data Fundamentals**](01-week-1/index.md)
+- [**Week 2 — Your First Machine Learning Models**](02-week-2/index.md)
+- [**Week 3 — Evaluation Metrics & Tree-Based Models**](03-week-3/index.md)
+- [**Week 4 — Neural Networks & Deep Learning**](04-week-4/index.md)
+- [**Week 5 — Transformers**](05-week-5/index.md)
+- [**Week 6 — Prompting & Working with LLMs**](06-week-6/index.md)
+- [**Week 7 — AI Agents: Tools, Action & Design**](07-week-7/index.md)
+
+> The series is ongoing — new weeks are added as they are published.
+
+## Read it as a book
+
+Enable [GitHub Pages](https://docs.github.com/en/pages) for this repo (source: `main` branch, `/` root) to get a reading site with a cover page, table of contents, and prev/next navigation. Or simply browse the folders above.
+
+## Contents
+
+**Week 1 — The Big Picture & Data Fundamentals**
+
+- Day 1 · [Before AI, Learn the Map](01-week-1/day-1-before-ai-learn-the.md)
+- Day 2 · [How Does a Machine Actually Learn?](01-week-1/day-2-how-does-a-machine-actually.md)
+- Day 3 · [What Kind of Data Can We Give AI?](01-week-1/day-3-what-kind-of-data-can.md)
+- Day 4 · [Before AI Can Learn, We Have to Prepare the Data](01-week-1/day-4-before-ai-can-learn.md)
+- Day 5 · [What Do We Do When Information Is Missing?](01-week-1/day-5-what-do-we-do-when-information.md)
+- Day 6 · [Outliers — When Something Doesn’t Look Right](01-week-1/day-6-outliers-when-something.md)
+- Day 7 · [How Do We Split Data for Machine Learning?](01-week-1/day-7-how-do-we-split-data.md)
+
+**Week 2 — Your First Machine Learning Models**
+
+- Day 1 · [Welcome to Machine Learning 🤖](02-week-2/day-1-welcome-to-machine-learning.md)
+- Day 2 · [Linear Regression - Your First Supervised Machine Learning Algorithm](02-week-2/day-2-linear-regression-your.md)
+- Day 3 · [How Does Linear Regression Find the Best Line?](02-week-2/day-3-how-does-linear-regression.md)
+- Day 4 · [What Happens When a Model Has More Than One Input? Features, Weights & Vectors](02-week-2/day-4-what-happens-when-a.md)
+- Day 5 · [Model Evaluation, Overfitting, Underfitting & Bias-Variance](02-week-2/day-5-your-model-got-100-so.md)
+- Day 6 · [How Do We Stop a Model From Overfitting?](02-week-2/day-6-how-do-we-stop-a-model.md)
+- Day 7 · [How Does AI Decide: Yes or No? | Classification Explained Simply](02-week-2/day-7-how-does-ai-decide-yes.md)
+
+**Week 3 — Evaluation Metrics & Tree-Based Models**
+
+- Day 1 · [Evaluation Metrics in Machine Learning: Confusion Matrix](03-week-3/day-1-evaluation-metrics-in.md)
+- Day 2 · [Accuracy, Precision & Recall](03-week-3/day-2-accuracy-precision-and.md)
+- Day 3 · [F1 Score, Sensitivity, Specificity, ROC & AUC](03-week-3/day-3-f1-score-sensitivity.md)
+- Day 4 · [Decision Trees 🌳](03-week-3/day-4-decision-trees.md)
+- Day 5 · [How Does a Decision Tree Choose the Best Split? 🌳](03-week-3/day-5-how-does-a-decision.md)
+- Day 6 · [Ensemble Learning Explained: Bagging, Random Forest & Boosting](03-week-3/day-6-ensemble-learning-explained.md)
+- Day 7 · [Recap: Putting the Pieces Together 🧩](03-week-3/day-7-recap-putting-the-pieces.md)
+
+**Week 4 — Neural Networks & Deep Learning**
+
+- Day 1 · [Neural Networks: What Are They and How Do They Work?](04-week-4/day-1-neural-networks-what.md)
+- Day 2 · [Inside a Neuron: From Vectors to Embeddings, Weights & Activation](04-week-4/day-2-inside-a-neuron-from.md)
+- Day 3 · [Forward Propagation, Backward Propagation & Gradient Descent in Neural Network](04-week-4/day-3-forward-propagation.md)
+- Day 4 · [Batches, Iterations, Epochs & Learning Rate in Neural Network](04-week-4/day-4-batches-iterations-epochs.md)
+- Day 5 · [From Neural Networks to Deep Learning](04-week-4/day-5-from-neural-networks.md)
+- Day 6 · [CNNs, RNNs & Transformers - Why Neural Networks Have Different Architectures](04-week-4/day-6-cnns-rnns-and-transformers.md)
+- Day 7 · [A Week of Neural Networks, In One Picture](04-week-4/day-7-a-week-of-neural-networks.md)
+
+**Week 5 — Transformers**
+
+- Day 1 · [Attention Is All You Need](05-week-5/day-1-attention-is-all-you.md)
+- Day 2 · [The Big Picture of a Transformer](05-week-5/day-2-the-big-picture-of-a.md)
+- Day 3 · [How Does a Transformer Understand What It Reads? Meet the Encoder](05-week-5/day-3-how-does-a-transformer.md)
+- Day 4 · [How Does a Transformer Generate an Output? Meet the Decoder](05-week-5/day-4-how-does-a-transformer.md)
+- Day 5 · [Putting the Transformer Together](05-week-5/day-5-putting-the-transformer.md)
+- Day 6 · [How Transformers Power Modern LLMs](05-week-5/day-6-how-transformers-power.md)
+- Day 7 · [What Actually Happens When You Type a Prompt Into an LLM?](05-week-5/day-7-what-actually-happens.md)
+
+**Week 6 — Prompting & Working with LLMs**
+
+- Day 1 · [You Can Talk to an LLM. But Can You Prompt One?](06-week-6/day-1-you-can-talk-to-an-llm.md)
+- Day 2 · [Zero-Shot, One-Shot & Few-Shot Prompting](06-week-6/day-2-zero-shot-one-shot-and.md)
+- Day 3 · [The Art of Talking to AI](06-week-6/day-3-the-art-of-talking-to.md)
+- Day 4 · [Understanding Context Windows - How Much Can AI Remember?](06-week-6/day-4-understanding-context.md)
+- Day 5 · [AI Hallucinations : Why Does AI Make Things Up?](06-week-6/day-5-ai-hallucinations-why.md)
+- Day 6 · [How Do We Get AI to Give Us Predictable Answers?](06-week-6/day-6-how-do-we-get-ai-to.md)
+- Day 7 · [Let’s Build Our First LLM Application](06-week-6/day-7-lets-build-our-first.md)
+
+**Week 7 — AI Agents: Tools, Action & Design**
+
+- Day 1 · [Tool Calling - Giving AI the Ability to Take Action](07-week-7/day-1-tool-calling-giving.md)
+- Day 2 · [Let’s Build a Tool Calling Mini Project with Google Calendar](07-week-7/day-2-lets-build-a-tool-calling.md)
+- Day 3 · [From AI Response to Real Action: Building a Google Calendar Integration](07-week-7/day-3-from-ai-response-to.md)
+- Day 4 · [Your AI Assistant Worked Once. Can It Handle a Real Conversation?](07-week-7/day-4-your-ai-assistant-worked.md)
+- Day 5 · [Before You Build AI application, Design the Workflow](07-week-7/day-5-before-you-build-ai.md)
+- Day 6 · [Does Every Step Need AI? Let's Think Before We Build](07-week-7/day-6-does-every-step-need.md)
+
+## Rebuilding after a new week is published
+
+```bash
+cd tools && npm install && node build_book.mjs
+```
+
+The script pulls the archive from Substack, adds only the newly published articles, and regenerates the navigation.

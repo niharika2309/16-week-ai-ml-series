@@ -1,0 +1,296 @@
+{
+  "212744264": {
+    "file": "00-introduction/index.md",
+    "slug": "16-weeks-to-ai-lets-stop-feeling",
+    "title": "16 Weeks to AI: Let’s Stop Feeling Like We’re Behind",
+    "date": "2026-08-25T18:49:54.386Z"
+  },
+  "212897085": {
+    "file": "01-week-1/day-1-before-ai-learn-the.md",
+    "slug": "week-1-day-1-before-ai-learn-the",
+    "title": "Week 1, Day 1: Before AI, Learn the Map",
+    "date": "2026-08-26T20:05:30.227Z"
+  },
+  "213028304": {
+    "file": "01-week-1/day-2-how-does-a-machine-actually.md",
+    "slug": "week-1-day-2-how-does-a-machine-actually",
+    "title": "Week 1, Day 2: How Does a Machine Actually Learn?",
+    "date": "2026-08-27T17:17:58.736Z"
+  },
+  "213192837": {
+    "file": "01-week-1/day-3-what-kind-of-data-can.md",
+    "slug": "week-1-day-3-what-kind-of-data-can",
+    "title": "Week 1, Day 3: What Kind of Data Can We Give AI?",
+    "date": "2026-08-28T19:19:44.848Z"
+  },
+  "213303602": {
+    "file": "01-week-1/day-4-before-ai-can-learn.md",
+    "slug": "week-1-day-4-before-ai-can-learn",
+    "title": "Week 1, Day 4: Before AI Can Learn, We Have to Prepare the Data",
+    "date": "2026-08-29T17:35:46.346Z"
+  },
+  "213446181": {
+    "file": "01-week-1/day-5-what-do-we-do-when-information.md",
+    "slug": "week-1-day-5-what-do-we-do-when-information",
+    "title": "Week 1, Day 5: What Do We Do When Information Is Missing?",
+    "date": "2026-08-30T19:53:05.410Z"
+  },
+  "213611171": {
+    "file": "01-week-1/day-6-outliers-when-something.md",
+    "slug": "week-1-day-6-outliers-when-something",
+    "title": "Week 1, Day 6: Outliers — When Something Doesn’t Look Right",
+    "date": "2026-08-31T21:08:53.786Z"
+  },
+  "213749967": {
+    "file": "01-week-1/day-7-how-do-we-split-data.md",
+    "slug": "week-1-day-7-how-do-we-split-data",
+    "title": "Week 1, Day 7: How Do We Split Data for Machine Learning?",
+    "date": "2026-09-01T18:52:02.787Z"
+  },
+  "213939688": {
+    "file": "02-week-2/day-1-welcome-to-machine-learning.md",
+    "slug": "week-2-day-1-welcome-to-machine-learning",
+    "title": "Week 2, Day 1: Welcome to Machine Learning 🤖",
+    "date": "2026-09-03T00:01:44.728Z"
+  },
+  "214048539": {
+    "file": "02-week-2/day-2-linear-regression-your.md",
+    "slug": "week-2-day-2-linear-regression-your",
+    "title": "Week 2, Day 2: Linear Regression - Your First Supervised Machine Learning Algorithm",
+    "date": "2026-09-03T18:40:58.404Z"
+  },
+  "214211576": {
+    "file": "02-week-2/day-3-how-does-linear-regression.md",
+    "slug": "week-2-day-3-how-does-linear-regression",
+    "title": "Week 2, Day 3 - How Does Linear Regression Find the Best Line?",
+    "date": "2026-09-04T20:13:56.485Z"
+  },
+  "214338508": {
+    "file": "02-week-2/day-4-what-happens-when-a.md",
+    "slug": "week-3-day-4-what-happens-when-a",
+    "title": "Week 2, Day 4- What Happens When a Model Has More Than One Input? Features, Weights & Vectors",
+    "date": "2026-09-05T19:45:20.149Z"
+  },
+  "214427615": {
+    "file": "02-week-2/day-5-your-model-got-100-so.md",
+    "slug": "week-2-day-5-your-model-got-100-so",
+    "title": "Week 2, Day 5 - Model Evaluation, Overfitting, Underfitting & Bias-Variance",
+    "date": "2026-09-06T14:29:33.251Z"
+  },
+  "214636329": {
+    "file": "02-week-2/day-6-how-do-we-stop-a-model.md",
+    "slug": "week-2-day-6-how-do-we-stop-a-model",
+    "title": "Week 2, Day 6 - How Do We Stop a Model From Overfitting?",
+    "date": "2026-09-07T21:12:35.130Z"
+  },
+  "214762351": {
+    "file": "02-week-2/day-7-how-does-ai-decide-yes.md",
+    "slug": "week-2-day-7-how-does-ai-decide-yes",
+    "title": "Week 2, Day 7 - How Does AI Decide: Yes or No? | Classification Explained Simply",
+    "date": "2026-09-08T17:26:22.097Z"
+  },
+  "214952397": {
+    "file": "03-week-3/day-1-evaluation-metrics-in.md",
+    "slug": "week-3-day-1-evaluation-metrics-in",
+    "title": "Week 3, Day 1 - Evaluation Metrics in Machine Learning: Confusion Matrix",
+    "date": "2026-09-10T01:38:58.562Z"
+  },
+  "215119528": {
+    "file": "03-week-3/day-2-accuracy-precision-and.md",
+    "slug": "week-3-day-2-accuracy-precision-and",
+    "title": "Week 3, Day 2 - Accuracy, Precision & Recall",
+    "date": "2026-09-10T21:43:45.494Z"
+  },
+  "215292785": {
+    "file": "03-week-3/day-3-f1-score-sensitivity.md",
+    "slug": "week-3-day-3-f1-score-sensitivity",
+    "title": "Week 3, Day 3 - F1 Score, Sensitivity, Specificity, ROC & AUC ",
+    "date": "2026-09-11T23:18:30.007Z"
+  },
+  "215433399": {
+    "file": "03-week-3/day-4-decision-trees.md",
+    "slug": "week-3-day-4-decision-trees",
+    "title": "Week 3, Day 4 - Decision Trees 🌳",
+    "date": "2026-09-12T23:34:08.363Z"
+  },
+  "215574083": {
+    "file": "03-week-3/day-5-how-does-a-decision.md",
+    "slug": "week-3-day-5-how-does-a-decision",
+    "title": "Week 3, Day 5 - How Does a Decision Tree Choose the Best Split? 🌳",
+    "date": "2026-09-14T00:13:25.193Z"
+  },
+  "215751961": {
+    "file": "03-week-3/day-6-ensemble-learning-explained.md",
+    "slug": "week-3-day-6-ensemble-learning-explained",
+    "title": "Week 3, Day 6 - Ensemble Learning Explained: Bagging, Random Forest & Boosting",
+    "date": "2026-09-15T01:15:03.482Z"
+  },
+  "215910859": {
+    "file": "03-week-3/day-7-recap-putting-the-pieces.md",
+    "slug": "week-3-day-7-recap-putting-the-pieces",
+    "title": "Week 3, Day 7 - Recap: Putting the Pieces Together 🧩",
+    "date": "2026-09-16T00:26:36.980Z"
+  },
+  "216054425": {
+    "file": "04-week-4/day-1-neural-networks-what.md",
+    "slug": "week-4-day-1-neural-networks-what",
+    "title": "Week 4, Day 1 - Neural Networks: What Are They and How Do They Work?",
+    "date": "2026-09-16T20:53:14.442Z"
+  },
+  "216240735": {
+    "file": "04-week-4/day-2-inside-a-neuron-from.md",
+    "slug": "week-4-day-2-inside-a-neuron-from",
+    "title": "Week 4, Day 2 - Inside a Neuron: From Vectors to Embeddings, Weights & Activation",
+    "date": "2026-09-18T02:10:32.608Z"
+  },
+  "216374939": {
+    "file": "04-week-4/day-3-forward-propagation.md",
+    "slug": "week-4-day-3-forward-propagation",
+    "title": "Week 4, Day 3 - Forward Propagation, Backward Propagation & Gradient Descent in Neural Network",
+    "date": "2026-09-19T00:25:13.510Z"
+  },
+  "216511896": {
+    "file": "04-week-4/day-4-batches-iterations-epochs.md",
+    "slug": "week-4-day-4-batches-iterations-epochs",
+    "title": "Week 4, Day 4 - Batches, Iterations, Epochs & Learning Rate in Neural Network",
+    "date": "2026-09-19T23:18:01.918Z"
+  },
+  "216652946": {
+    "file": "04-week-4/day-5-from-neural-networks.md",
+    "slug": "week-4-day-5-from-neural-networks",
+    "title": "Week 4, Day 5 - From Neural Networks to Deep Learning",
+    "date": "2026-09-20T23:29:25.714Z"
+  },
+  "216836414": {
+    "file": "04-week-4/day-6-cnns-rnns-and-transformers.md",
+    "slug": "week-4-day-6-cnns-rnns-and-transformers",
+    "title": "Week 4, Day 6 - CNNs, RNNs & Transformers - Why Neural Networks Have Different Architectures",
+    "date": "2026-09-22T02:48:44.936Z"
+  },
+  "216995931": {
+    "file": "04-week-4/day-7-a-week-of-neural-networks.md",
+    "slug": "week-4-day-7-a-week-of-neural-networks",
+    "title": "Week 4, Day 7 - A Week of Neural Networks, In One Picture",
+    "date": "2026-09-23T00:21:26.585Z"
+  },
+  "217166624": {
+    "file": "05-week-5/day-1-attention-is-all-you.md",
+    "slug": "week-5-day-1-attention-is-all-you",
+    "title": "Week 5, Day 1 - Attention Is All You Need",
+    "date": "2026-09-24T01:30:25.153Z"
+  },
+  "217323625": {
+    "file": "05-week-5/day-2-the-big-picture-of-a.md",
+    "slug": "week-5-day-2-the-big-picture-of-a",
+    "title": "Week 5, Day 2 - The Big Picture of a Transformer",
+    "date": "2026-09-25T01:15:08.979Z"
+  },
+  "217465810": {
+    "file": "05-week-5/day-3-how-does-a-transformer.md",
+    "slug": "week-5-day-3-how-does-a-transformer",
+    "title": "Week 5, Day 3 - How Does a Transformer Understand What It Reads? Meet the Encoder",
+    "date": "2026-09-25T23:19:20.622Z"
+  },
+  "217601548": {
+    "file": "05-week-5/day-4-how-does-a-transformer.md",
+    "slug": "week-5-day-4-how-does-a-transformer",
+    "title": "Week 5, Day 4 - How Does a Transformer Generate an Output? Meet the Decoder",
+    "date": "2026-09-27T01:10:42.163Z"
+  },
+  "217609944": {
+    "file": "05-week-5/day-5-putting-the-transformer.md",
+    "slug": "week-5-day-5-putting-the-transformer",
+    "title": "Week 5, Day 5 - Putting the Transformer Together ",
+    "date": "2026-09-27T22:24:47.093Z"
+  },
+  "217926355": {
+    "file": "05-week-5/day-6-how-transformers-power.md",
+    "slug": "week-5-day-6-how-transformers-power",
+    "title": "Week 5, Day 6 - How Transformers Power Modern LLMs",
+    "date": "2026-09-29T00:19:55.157Z"
+  },
+  "218102891": {
+    "file": "05-week-5/day-7-what-actually-happens.md",
+    "slug": "week-5-day-7-what-actually-happens",
+    "title": "Week 5, Day 7 - What Actually Happens When You Type a Prompt Into an LLM?",
+    "date": "2026-09-30T01:32:18.873Z"
+  },
+  "218263526": {
+    "file": "06-week-6/day-1-you-can-talk-to-an-llm.md",
+    "slug": "week-6-day-1-you-can-talk-to-an-llm",
+    "title": "Week 6, Day 1 - You Can Talk to an LLM. But Can You Prompt One?",
+    "date": "2026-10-01T01:00:22.606Z"
+  },
+  "218406375": {
+    "file": "06-week-6/day-2-zero-shot-one-shot-and.md",
+    "slug": "week-6-day-2-zero-shot-one-shot-and",
+    "title": "Week 6, Day 2 - Zero-Shot, One-Shot & Few-Shot Prompting",
+    "date": "2026-10-02T00:52:59.931Z"
+  },
+  "218579152": {
+    "file": "06-week-6/day-3-the-art-of-talking-to.md",
+    "slug": "week-6-day-3-the-art-of-talking-to",
+    "title": "Week 6, Day 3 - The Art of Talking to AI",
+    "date": "2026-10-02T23:59:48.924Z"
+  },
+  "218707242": {
+    "file": "06-week-6/day-4-understanding-context.md",
+    "slug": "week-6-day-4-understanding-context",
+    "title": "Week 6, Day 4 - Understanding Context Windows - How Much Can AI Remember?",
+    "date": "2026-10-03T22:43:08.409Z"
+  },
+  "218725683": {
+    "file": "06-week-6/day-5-ai-hallucinations-why.md",
+    "slug": "week-6-day-5-ai-hallucinations-why",
+    "title": "Week 6, Day 5 - AI Hallucinations : Why Does AI Make Things Up?",
+    "date": "2026-10-04T17:30:39.669Z"
+  },
+  "218980404": {
+    "file": "06-week-6/day-6-how-do-we-get-ai-to.md",
+    "slug": "week-6-day-6-how-do-we-get-ai-to",
+    "title": "Week 6, Day 6 - How Do We Get AI to Give Us Predictable Answers?",
+    "date": "2026-10-05T18:42:42.945Z"
+  },
+  "219028256": {
+    "file": "06-week-6/day-7-lets-build-our-first.md",
+    "slug": "week-6-day-7-lets-build-our-first",
+    "title": "Week 6, Day 7 - Let’s Build Our First LLM Application",
+    "date": "2026-10-06T18:04:04.890Z"
+  },
+  "219332209": {
+    "file": "07-week-7/day-1-tool-calling-giving.md",
+    "slug": "week-7-day-1-tool-calling-giving",
+    "title": "Week 7, Day 1 - Tool Calling - Giving AI the Ability to Take Action",
+    "date": "2026-10-08T00:47:56.117Z"
+  },
+  "219498568": {
+    "file": "07-week-7/day-2-lets-build-a-tool-calling.md",
+    "slug": "week-7-day-2-lets-build-a-tool-calling",
+    "title": "Week 7, Day 2 - Let’s Build a Tool Calling Mini Project with Google Calendar",
+    "date": "2026-10-08T22:44:46.127Z"
+  },
+  "219659547": {
+    "file": "07-week-7/day-3-from-ai-response-to.md",
+    "slug": "week-7-day-3-from-ai-response-to",
+    "title": "Week 7, Day 3 - From AI Response to Real Action: Building a Google Calendar Integration",
+    "date": "2026-10-09T23:18:27.285Z"
+  },
+  "219796532": {
+    "file": "07-week-7/day-4-your-ai-assistant-worked.md",
+    "slug": "week-7-day-4-your-ai-assistant-worked",
+    "title": "Week 7, Day 4 - Your AI Assistant Worked Once. Can It Handle a Real Conversation?",
+    "date": "2026-10-11T02:26:20.433Z"
+  },
+  "219813247": {
+    "file": "07-week-7/day-5-before-you-build-ai.md",
+    "slug": "week-7-day-5-before-you-build-ai",
+    "title": "Week 7, Day 5 - Before You Build AI application, Design the Workflow",
+    "date": "2026-10-11T17:47:41.559Z"
+  },
+  "220115042": {
+    "file": "07-week-7/day-6-does-every-step-need.md",
+    "slug": "week-7-day-6-does-every-step-need",
+    "title": "Week 7, Day 6 - Does Every Step Need AI? Let's Think Before We Build",
+    "date": "2026-10-13T00:13:28.131Z"
+  }
+}

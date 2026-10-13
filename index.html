@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI, One Concept at a Time — a 16-week book</title>
+    <meta
+      name="description"
+      content="A beginner-friendly 16-week journey into Artificial Intelligence and Machine Learning — one concept at a time. By Niharika Batra."
+    />
+    <link rel="stylesheet" href="https://unpkg.com/docsify@5.0.0/lib/themes/default.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="app-loading">Loading the book…</div>
+    </div>
+    <script>
+      window.$docsify = {
+        name: 'AI, One Concept at a Time',
+        repo: '',
+        basePath: '',
+        coverpage: '_coverpage.md',
+        loadSidebar: true,
+        relativePath: true,
+        externalLinkTarget: '_blank',
+        externalLinkRel: 'noopener',
+        maxLevel: 3,
+        subMaxLevel: 2,
+        search: [
+          '/title',
+          '/text',
+          {
+            placeholder: 'Search the book…',
+            noArticles: 'No results.',
+          },
+        ],
+        plugins: [
+          // simple prev/next navigation using the generated book-pages.js
+          function bookNav(lifecycle, vm) {
+            lifecycle.afterEach((content, callback) => {
+              const pages = window.BOOK_PAGES || []
+              if (!pages.length) return callback(content)
+              const norm = (s) => String(s).replace(/\.md$/, '').replace(/\/index$/, '')
+              const cur = norm(vm.route.file || vm.route.path || '')
+              const idx = pages.findIndex((p) => norm(p.file) === cur)
+              if (idx === -1) return callback(content)
+              const prev = idx > 0 ? pages[idx - 1] : null
+              const next = idx < pages.length - 1 ? pages[idx + 1] : null
+              const link = (p, dir) =>
+                p
+                  ? `<a class="book-nav-link" href="#/${p.file.replace(/\.md$/, '')}"><span class="book-nav-dir">${
+                      dir === 'prev' ? '← Previous' : 'Next →'
+                    }</span><span class="book-nav-label">${p.label}</span></a>`
+                  : '<span class="book-nav-empty"></span>'
+              callback(content + `<nav class="book-nav">${link(prev, 'prev')}${link(next, 'next')}</nav>`)
+            })
+          },
+        ],
+      }
+    </script>
+    <script src="https://unpkg.com/docsify@5.0.0/lib/docsify.min.js"></script>
+    <script src="https://unpkg.com/docsify@5.0.0/lib/plugins/search.js"></script>
+    <script src="book-pages.js"></script>
+  </body>
+</html>
