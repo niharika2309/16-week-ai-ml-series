@@ -84,10 +84,10 @@ function parseWeekDay(title) {
   return { week: +m[1], day: +m[2], shortTitle: m[3].trim() || title }
 }
 
-/** "01-week-1/day-x.md" relative to "07-week-7/day-y.md" -> "../../01-week-1/day-x.md" */
-function relLink(fromChapterDir, toRoute) {
-  const depth = fromChapterDir.split('/').length // one folder level below root
-  return `${'../'.repeat(depth)}${toRoute}`
+/** Cross-book link. Root-relative (docsify's `relativePath` is off, and the
+ *  site is served from the domain root, so links must resolve from "/"). */
+function relLink(_fromChapterDir, toRoute) {
+  return toRoute
 }
 
 function slugFromUrl(url) {
@@ -421,7 +421,7 @@ async function main() {
       '',
       ...posts.map((p) => {
         const s = p.slug.replace(/^week-\d+-day-\d+-/, '')
-        return `- **Day ${p.wd.day}** — [${p.wd.shortTitle}](./day-${p.wd.day}-${s}.md)`
+        return `- **Day ${p.wd.day}** — [${p.wd.shortTitle}](${dir}/day-${p.wd.day}-${s}.md)`
       }),
       '',
     ].join('\n')
