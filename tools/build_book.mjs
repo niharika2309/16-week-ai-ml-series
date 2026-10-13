@@ -446,6 +446,8 @@ async function main() {
     '',
     '> The series is ongoing — new weeks are added as they are published.',
     '',
+    '> **Keep the empty `.nojekyll` file in the repo root.** GitHub Pages runs Jekyll on branch deployments by default, and Jekyll silently drops files that start with an underscore. Without it, `_coverpage.md` and `_sidebar.md` are never published, and the Docsify reading site breaks.',
+    '',
     '## Read it as a book',
     '',
     'Enable [GitHub Pages](https://docs.github.com/en/pages) for this repo (source: `main` branch, `/` root) to get a reading site with a cover page, table of contents, and prev/next navigation. Or simply browse the folders above.',

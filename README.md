@@ -17,6 +17,8 @@ This book collects the full series: each article is a page, each week is a chapt
 
 > The series is ongoing — new weeks are added as they are published.
 
+> **Keep the empty `.nojekyll` file in the repo root.** GitHub Pages runs Jekyll on branch deployments by default, and Jekyll silently drops files that start with an underscore. Without it, `_coverpage.md` and `_sidebar.md` are never published, and the Docsify reading site breaks.
+
 ## Contents
 
 **Week 1 — The Big Picture & Data Fundamentals**
