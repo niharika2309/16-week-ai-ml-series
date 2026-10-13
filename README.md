@@ -17,10 +17,6 @@ This book collects the full series: each article is a page, each week is a chapt
 
 > The series is ongoing — new weeks are added as they are published.
 
-## Read it as a book
-
-Enable [GitHub Pages](https://docs.github.com/en/pages) for this repo (source: `main` branch, `/` root) to get a reading site with a cover page, table of contents, and prev/next navigation. Or simply browse the folders above.
-
 ## Contents
 
 **Week 1 — The Big Picture & Data Fundamentals**
