@@ -23,18 +23,17 @@
         basePath: '',
         coverpage: '_coverpage.md',
         loadSidebar: true,
+        auto2top: true, // start each article from the top on next/prev and link navigation
         externalLinkTarget: '_blank',
         externalLinkRel: 'noopener',
         maxLevel: 3,
         subMaxLevel: 2,
-        search: [
-          '/title',
-          '/text',
-          {
-            placeholder: 'Search the book…',
-            noArticles: 'No results.',
-          },
-        ],
+        // docsify v5 search: object form. (The old v4-style ['/title','/text'] array
+        // would be treated as path prefixes and crash the index build.)
+        search: {
+          placeholder: 'Search the book…',
+          noData: 'No results.',
+        },
         plugins: [
           // simple prev/next navigation using the generated book-pages.js
           function bookNav(lifecycle, vm) {
@@ -59,7 +58,11 @@
         ],
       }
     </script>
-    <!-- Vendored locally so the site has no CDN dependency (unpkg can be blocked/unreliable) -->
+    <!-- Vendored locally so the site has no CDN dependency (unpkg can be blocked/unreliable).
+         IMPORTANT: docsify.min.js is the v5.0.0 DIST build (package/dist/), which pairs
+         with the dist core.min.css theme above. The package's legacy lib/ build uses a
+         different sidebar mechanism (body.close vs .sidebar.show) and would make the
+         sidebar invisible and un-toggleable with this theme. Do not swap in the lib build. -->
     <script src="lib/docsify.min.js"></script>
     <script src="lib/plugins/search.js"></script>
     <script src="book-pages.js"></script>

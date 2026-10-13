@@ -17,7 +17,8 @@
   font-weight: 700;
   letter-spacing: -0.02em;
 }
-.cover .link-button {
+.cover .link-button,
+.cover a.button {
   background: var(--book-accent);
   border-color: var(--book-accent);
   color: #fff;
@@ -138,7 +139,7 @@
   margin: 18px 12px 6px;
   color: var(--book-ink);
 }
-sidebar .book-nav {
+.sidebar .book-nav {
   display: none;
 }
 
