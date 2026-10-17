@@ -38,6 +38,7 @@ const WEEK_THEMES = {
   5: 'Transformers',
   6: 'Prompting & Working with LLMs',
   7: 'AI Agents: Tools, Action & Design',
+  8: 'RAG — From Documents to Answers',
 }
 
 // ---------------------------------------------------------------- helpers

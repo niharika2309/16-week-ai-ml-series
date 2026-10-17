@@ -258,7 +258,7 @@ The interesting part is that many of these tasks can be turned into a text-gener
 
 That’s one of the reasons decoder-only Transformers became so important to the modern **LLM era**.
 
-[Read Week 5, Day 4: How Does a Transformer Generate an Output? Meet the Decoder](../05-week-5/day-4-how-does-a-transformer.md)
+[Read Week 5, Day 4: How Does a Transformer Generate an Output? Meet the Decoder](05-week-5/day-4-how-does-a-transformer.md)
 
 ---
 

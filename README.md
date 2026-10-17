@@ -14,10 +14,15 @@ This book collects the full series: each article is a page, each week is a chapt
 - [**Week 5 — Transformers**](05-week-5/index.md)
 - [**Week 6 — Prompting & Working with LLMs**](06-week-6/index.md)
 - [**Week 7 — AI Agents: Tools, Action & Design**](07-week-7/index.md)
+- [**Week 8 — RAG — From Documents to Answers**](08-week-8/index.md)
 
 > The series is ongoing — new weeks are added as they are published.
 
 > **Keep the empty `.nojekyll` file in the repo root.** GitHub Pages runs Jekyll on branch deployments by default, and Jekyll silently drops files that start with an underscore. Without it, `_coverpage.md` and `_sidebar.md` are never published, and the Docsify reading site breaks.
+
+## Read it as a book
+
+Enable [GitHub Pages](https://docs.github.com/en/pages) for this repo (source: `main` branch, `/` root) to get a reading site with a cover page, table of contents, and prev/next navigation. Or simply browse the folders above.
 
 ## Contents
 
@@ -89,6 +94,13 @@ This book collects the full series: each article is a page, each week is a chapt
 - Day 4 · [Your AI Assistant Worked Once. Can It Handle a Real Conversation?](07-week-7/day-4-your-ai-assistant-worked.md)
 - Day 5 · [Before You Build AI application, Design the Workflow](07-week-7/day-5-before-you-build-ai.md)
 - Day 6 · [Does Every Step Need AI? Let's Think Before We Build](07-week-7/day-6-does-every-step-need.md)
+- Day 7 · [From AI Responses to AI Applications](07-week-7/day-7-from-ai-responses-to.md)
+
+**Week 8 — RAG — From Documents to Answers**
+
+- Day 1 · [What Is RAG, and Why Does AI Need It?](08-week-8/day-1-what-is-rag-and-why.md)
+- Day 2 · [How Does RAG Find the Right Information in Documents?](08-week-8/day-2-how-does-rag-find-the.md)
+- Day 3 · [Chunking Strategies That Make RAG Work Better](08-week-8/day-3-chunking-strategies.md)
 
 ## Rebuilding after a new week is published
 

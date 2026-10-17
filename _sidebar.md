@@ -54,3 +54,8 @@
   - [Day 4 · Your AI Assistant Worked Once. Can It Handle a Real Conversation?](07-week-7/day-4-your-ai-assistant-worked.md)
   - [Day 5 · Before You Build AI application, Design the Workflow](07-week-7/day-5-before-you-build-ai.md)
   - [Day 6 · Does Every Step Need AI? Let's Think Before We Build](07-week-7/day-6-does-every-step-need.md)
+  - [Day 7 · From AI Responses to AI Applications](07-week-7/day-7-from-ai-responses-to.md)
+- **Week 8 — RAG — From Documents to Answers**
+  - [Day 1 · What Is RAG, and Why Does AI Need It?](08-week-8/day-1-what-is-rag-and-why.md)
+  - [Day 2 · How Does RAG Find the Right Information in Documents?](08-week-8/day-2-how-does-rag-find-the.md)
+  - [Day 3 · Chunking Strategies That Make RAG Work Better](08-week-8/day-3-chunking-strategies.md)

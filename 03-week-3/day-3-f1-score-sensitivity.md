@@ -10,7 +10,7 @@ The machine gives its prediction. But now the doctor has a bigger question:
 
 > **How good is this machine actually?**
 
-That’s where evaluation metrics come in. We’ve already learned about **precision and recall**. Read here → [Accuracy, Precision and Recall](../03-week-3/day-2-accuracy-precision-and.md)
+That’s where evaluation metrics come in. We’ve already learned about **precision and recall**. Read here → [Accuracy, Precision and Recall](03-week-3/day-2-accuracy-precision-and.md)
 
 Today, let’s connect those ideas to a few more concepts: **Sensitivity, Specificity, F1 Score, ROC Curve and AUC.**
 

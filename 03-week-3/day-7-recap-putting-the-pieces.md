@@ -46,7 +46,7 @@ We started Week 3 with **classification evaluation**.
 A model can make predictions. But how do we know whether those predictions are actually useful? That’s where the **Confusion Matrix** came in.
 
 > 📄 **Week 3, Day 1 - Evaluation Metrics in Machine Learning: Confusion Matrix**
-> September 9, 2026 · [Read the original on Substack](../03-week-3/day-1-evaluation-metrics-in.md)
+> September 9, 2026 · [Read the original on Substack](03-week-3/day-1-evaluation-metrics-in.md)
 
 Instead of looking at only:
 
@@ -61,7 +61,7 @@ From there, we introduced:
 **Recall**
 
 > 📄 **Week 3, Day 2 - Accuracy, Precision & Recall**
-> September 10, 2026 · [Read the original on Substack](../03-week-3/day-2-accuracy-precision-and.md)
+> September 10, 2026 · [Read the original on Substack](03-week-3/day-2-accuracy-precision-and.md)
 
 And then went further with:
 
@@ -72,7 +72,7 @@ And then went further with:
 We also looked at **ROC curves and AUC** to understand model performance across different classification thresholds.
 
 > 📄 **Week 3, Day 3 - F1 Score, Sensitivity, Specificity, ROC & AUC**
-> September 11, 2026 · [Read the original on Substack](../03-week-3/day-3-f1-score-sensitivity.md)
+> September 11, 2026 · [Read the original on Substack](03-week-3/day-3-f1-score-sensitivity.md)
 
 The important takeaway:
 
@@ -107,7 +107,7 @@ If no → go that way.
 Eventually, the tree reaches a prediction. It looks simple.
 
 > 📄 **Week 3, Day 4 - Decision Trees 🌳**
-> September 12, 2026 · [Read the original on Substack](../03-week-3/day-4-decision-trees.md)
+> September 12, 2026 · [Read the original on Substack](03-week-3/day-4-decision-trees.md)
 
 But then we asked an important question:
 
@@ -132,7 +132,7 @@ This is where we introduced:
 You don’t need to treat these as three completely separate things.
 
 > 📄 **Week 3, Day 5 - How Does a Decision Tree Choose the Best Split? 🌳**
-> September 13, 2026 · [Read the original on Substack](../03-week-3/day-5-how-does-a-decision.md)
+> September 13, 2026 · [Read the original on Substack](03-week-3/day-5-how-does-a-decision.md)
 
 The bigger idea is:
 
@@ -194,7 +194,7 @@ For now, remember the bigger shift:
 > **One model → multiple models working together.**
 
 > 📄 **Week 3, Day 6 - Ensemble Learning Explained: Bagging, Random Forest & Boosting**
-> September 14, 2026 · [Read the original on Substack](../03-week-3/day-6-ensemble-learning-explained.md)
+> September 14, 2026 · [Read the original on Substack](03-week-3/day-6-ensemble-learning-explained.md)
 ---
 
 **One More Thing Before We Move On…**

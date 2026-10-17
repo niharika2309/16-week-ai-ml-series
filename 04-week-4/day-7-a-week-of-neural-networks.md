@@ -35,7 +35,7 @@ At the beginning of the week, we asked:
 **What actually is a neural network?**
 
 > 📄 **Week 4, Day 1 - Neural Networks: What Are They and How Do They Work?**
-> September 16, 2026 · [Read the original on Substack](../04-week-4/day-1-neural-networks-what.md)
+> September 16, 2026 · [Read the original on Substack](04-week-4/day-1-neural-networks-what.md)
 
 We learned that it isn’t some mysterious “AI brain.”
 
@@ -46,7 +46,7 @@ And those neurons work with numbers.
 That’s why we talked about **vectors and embeddings**, ways of representing information numerically so a neural network can work with it.
 
 > 📄 **Week 4, Day 2 - Inside a Neuron: From Vectors to Embeddings, Weights & Activation**
-> September 17, 2026 · [Read the original on Substack](../04-week-4/day-2-inside-a-neuron-from.md)
+> September 17, 2026 · [Read the original on Substack](04-week-4/day-2-inside-a-neuron-from.md)
 ---
 
 **Then We Asked: How Does It Learn?**
@@ -72,7 +72,7 @@ So the bigger idea is simply:
 And this happens over and over again.
 
 > 📄 **Week 4, Day 3 - Forward Propagation, Backward Propagation & Gradient Descent in Neural Network**
-> September 18, 2026 · [Read the original on Substack](../04-week-4/day-3-forward-propagation.md)
+> September 18, 2026 · [Read the original on Substack](04-week-4/day-3-forward-propagation.md)
 ---
 
 **But It Doesn’t Learn From Everything at Once**
@@ -94,7 +94,7 @@ So all those terms we learned aren’t isolated vocabulary.
 They’re pieces of the same learning process.
 
 > 📄 **Week 4, Day 4 - Batches, Iterations, Epochs & Learning Rate in Neural Network**
-> September 19, 2026 · [Read the original on Substack](../04-week-4/day-4-batches-iterations-epochs.md)
+> September 19, 2026 · [Read the original on Substack](04-week-4/day-4-batches-iterations-epochs.md)
 ---
 
 **And Then We Asked Another Question**
@@ -102,7 +102,7 @@ They’re pieces of the same learning process.
 **Do we use the same neural network for every kind of problem?**
 
 > 📄 **Week 4, Day 5 - From Neural Networks to Deep Learning**
-> September 20, 2026 · [Read the original on Substack](../04-week-4/day-5-from-neural-networks.md)
+> September 20, 2026 · [Read the original on Substack](04-week-4/day-5-from-neural-networks.md)
 
 Not necessarily.
 
@@ -117,7 +117,7 @@ So we looked at different architectures designed to work with different kinds of
 **RNNs** → designed for sequential information where order matters.
 
 > 📄 **Week 4, Day 6 - CNNs, RNNs & Transformers - Why Neural Networks Have Different Architectures**
-> September 21, 2026 · [Read the original on Substack](../04-week-4/day-6-cnns-rnns-and-transformers.md)
+> September 21, 2026 · [Read the original on Substack](04-week-4/day-6-cnns-rnns-and-transformers.md)
 
 And this brings us to where we’re going next.
 

@@ -80,7 +80,7 @@ The important idea is:
 We actually saw this idea earlier when we discussed **vectors and embeddings** in Week 4.
 
 > 📄 **Week 4, Day 2 - Inside a Neuron: From Vectors to Embeddings, Weights & Activation**
-> September 17, 2026 · [Read the original on Substack](../04-week-4/day-2-inside-a-neuron-from.md)
+> September 17, 2026 · [Read the original on Substack](04-week-4/day-2-inside-a-neuron-from.md)
 
 Now we’re going to see why those embeddings become so important inside Transformers.
 

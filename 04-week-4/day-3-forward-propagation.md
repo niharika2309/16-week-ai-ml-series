@@ -49,7 +49,7 @@ First, the neural network needs to make a prediction. This is called **Forward P
 Remember our neuron from yesterday?
 
 > 📄 **Week 4, Day 2 - Inside a Neuron: From Vectors to Embeddings, Weights & Activation**
-> September 17, 2026 · [Read the original on Substack](../04-week-4/day-2-inside-a-neuron-from.md)
+> September 17, 2026 · [Read the original on Substack](04-week-4/day-2-inside-a-neuron-from.md)
 
 It takes its inputs, applies **weights and bias**, passes the result through an **activation function**, and produces an output.
 

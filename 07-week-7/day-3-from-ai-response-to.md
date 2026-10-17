@@ -5,7 +5,7 @@
 Over the last two days, we’ve explored **tool calling** and how an AI application can use functions to interact with other systems.
 
 > 📄 **Week 7, Day 1 - Tool Calling - Giving AI the Ability to Take Action**
-> October 7, 2026 · [Read the original on Substack](../07-week-7/day-1-tool-calling-giving.md)
+> October 7, 2026 · [Read the original on Substack](07-week-7/day-1-tool-calling-giving.md)
 
 Today, let’s put that into practice.
 
@@ -47,7 +47,7 @@ The first step is to establish connections to the systems our application needs.
 If you followed Day 2, you’ve already worked with Google Calendar credentials. In this project, we’ll use the [authenticate.py](https://github.com/niharika2309/tool-calling-google-calendar/blob/main/authenticate.py) script to connect those credentials to our application.
 
 > 📄 **Week 7, Day 2 - Let’s Build a Tool Calling Mini Project with Google Calendar**
-> October 8, 2026 · [Read the original on Substack](../07-week-7/day-2-lets-build-a-tool-calling.md)
+> October 8, 2026 · [Read the original on Substack](07-week-7/day-2-lets-build-a-tool-calling.md)
 
 Run the script with:
 

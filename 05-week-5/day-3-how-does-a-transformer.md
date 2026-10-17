@@ -131,7 +131,7 @@ The important part is that the Encoder isn’t just one new magical component.
 It’s a **larger structure built from the blocks we’ve already learned about.**
 
 > 📄 **Week 5, Day 2: The Big Picture of a Transformer**
-> September 24, 2026 · [Read the original on Substack](../05-week-5/day-2-the-big-picture-of-a.md)
+> September 24, 2026 · [Read the original on Substack](05-week-5/day-2-the-big-picture-of-a.md)
 ---
 
 **Think of it like building with LEGO 🧱**

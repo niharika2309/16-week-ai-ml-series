@@ -185,7 +185,7 @@ This is where **structured output** becomes useful.
 
 Instead of asking the model for just any answer, we can tell it the structure we expect.
 
-If you want a refresher on structured output, you can read **[Week 6, Day 6: How Do We Get AI to Give Us the Output We Want?](../06-week-6/day-6-how-do-we-get-ai-to.md)**.
+If you want a refresher on structured output, you can read **[Week 6, Day 6: How Do We Get AI to Give Us the Output We Want?](06-week-6/day-6-how-do-we-get-ai-to.md)**.
 
 ---
 ## Step 5: Defining that structure
