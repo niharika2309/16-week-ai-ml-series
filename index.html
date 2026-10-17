@@ -20,7 +20,10 @@
       window.$docsify = {
         name: 'AI, One Concept at a Time',
         repo: '',
-        basePath: '',
+        // GitHub Pages project page: the site lives under /16-week-ai-ml-series/
+        // (repo renamed from niharika2309.github.io). Docsify prefixes all routes,
+        // file fetches and rewritten asset paths with this base.
+        basePath: '/16-week-ai-ml-series/',
         coverpage: '_coverpage.md',
         loadSidebar: true,
         auto2top: true, // start each article from the top on next/prev and link navigation
