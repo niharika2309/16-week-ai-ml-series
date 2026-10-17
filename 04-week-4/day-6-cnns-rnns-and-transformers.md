@@ -71,7 +71,7 @@ You don’t need to understand the math behind convolution yet.
 
 For now, think of it like this:
 
-```
+
 Pixels
    ↓
 Lines & edges
@@ -81,7 +81,7 @@ Shapes & textures
 Parts of an object
    ↓
 Object
-```
+
 
 The network can gradually learn which patterns are useful for the task.
 
@@ -119,12 +119,10 @@ Time-series data is another.
 
 For example:
 
-```
 Monday → 72°F
 Tuesday → 75°F
 Wednesday → 79°F
 Thursday → 81°F
-```
 
 Looking at the sequence can tell us more than looking at one temperature by itself.
 
