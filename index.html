@@ -67,6 +67,10 @@
          different sidebar mechanism (body.close vs .sidebar.show) and would make the
          sidebar invisible and un-toggleable with this theme. Do not swap in the lib build. -->
     <script src="lib/docsify.min.js"></script>
+    <!-- Prism "python" grammar: the docsify dist build only bundles a small language
+         set (markup/css/js…). Loads the official component so ```python blocks get
+         real syntax highlighting. Must come after docsify.min.js (it defines Prism). -->
+    <script src="lib/prism-python.min.js"></script>
     <script src="lib/plugins/search.js"></script>
     <script src="book-pages.js"></script>
   </body>

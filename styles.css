@@ -4,6 +4,12 @@
   --book-accent: #4c6ef5;
   --book-ink: #24292f;
   --book-muted: #6b7280;
+  --book-code-bg: #f4f6fa;
+  /* pin the docsify core theme's code variables so code blocks stay light */
+  --code-bg: var(--book-code-bg);
+  --code-color: var(--book-ink);
+  --codeblock-bg: var(--book-code-bg);
+  --codeblock-color: var(--book-ink);
 }
 
 /* cover page */
@@ -56,12 +62,22 @@
 }
 .markdown-section pre {
   border-radius: 10px;
-  background: #1f2430;
+  background: var(--book-code-bg);
+  border: 1px solid #e4e8f0;
+  color: var(--book-ink);
   padding: 16px 18px;
   overflow-x: auto;
 }
+.markdown-section pre code {
+  color: inherit;
+  background: transparent;
+}
 .markdown-section code {
   border-radius: 6px;
+}
+/* blocks with no language get a "markup" corner label from the core theme — drop it */
+.markdown-section pre[data-lang='markup']::after {
+  content: none;
 }
 .markdown-section h1,
 .markdown-section h2,

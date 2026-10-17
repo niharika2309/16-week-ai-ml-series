@@ -71,7 +71,7 @@ You don’t need to understand the math behind convolution yet.
 
 For now, think of it like this:
 
-```
+```python
 Pixels
    ↓
 Lines & edges
@@ -119,7 +119,7 @@ Time-series data is another.
 
 For example:
 
-```
+```python
 Monday → 72°F
 Tuesday → 75°F
 Wednesday → 79°F
