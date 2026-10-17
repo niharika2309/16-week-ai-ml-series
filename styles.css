@@ -31,6 +31,12 @@
   padding: 12px 28px;
   border-radius: 8px;
 }
+/* secondary cover CTA (e.g. the star button) renders as an outlined accent button,
+   so the primary "Start reading" stays the visually dominant call to action */
+.cover a.button.secondary {
+  background: transparent;
+  color: var(--book-accent);
+}
 
 /* reading column */
 .content {

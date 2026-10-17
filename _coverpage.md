@@ -4,4 +4,6 @@
 >
 > By **Niharika Batra**
 
-[Start reading](00-introduction/index.md)
+If you find this helpful, please give the GitHub repo a star ⭐ — it helps the book reach more readers.
+
+[Start reading](00-introduction/index.md) [⭐ Star on GitHub](https://github.com/niharika2309/16-week-ai-ml-series)
