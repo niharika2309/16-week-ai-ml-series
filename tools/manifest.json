@@ -316,5 +316,29 @@
     "slug": "week-8-day-3-chunking-strategies",
     "title": "Week 8, Day 3 - Chunking Strategies That Make RAG Work Better",
     "date": "2026-10-16T23:42:14.947Z"
+  },
+  "220898524": {
+    "file": "08-week-8/day-4-rag-vector-search-and.md",
+    "slug": "week-8-day-4-rag-vector-search-and",
+    "title": "Week 8, Day 4 - RAG, Vector Search & Similarity Search",
+    "date": "2026-10-17T19:36:18.745Z"
+  },
+  "221053721": {
+    "file": "08-week-8/day-5-lets-build-a-basic-rag.md",
+    "slug": "week-8-day-5-lets-build-a-basic-rag",
+    "title": "Week 8, Day 5 - Let's Build a Basic RAG Application",
+    "date": "2026-10-18T22:31:40.095Z"
+  },
+  "221239701": {
+    "file": "08-week-8/day-6-beyond-vector-search.md",
+    "slug": "week-8-day-6-beyond-vector-search",
+    "title": "Week 8, Day 6 - Beyond Vector Search :How Does RAG Retrieve Information?",
+    "date": "2026-10-20T00:13:38.959Z"
+  },
+  "221379923": {
+    "file": "08-week-8/day-7-wrap-up-understanding.md",
+    "slug": "week-8-day-7-wrap-up-understanding",
+    "title": "Week 8, Day 7 - Wrap-Up: Understanding RAG, One Piece at a Time",
+    "date": "2026-10-20T23:39:17.153Z"
   }
 }
