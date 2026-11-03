@@ -20,6 +20,8 @@ This book collects the full series: each article is a page, each week is a chapt
 
 > The series is ongoing — new weeks are added as they are published.
 
+> 🔒 marks subscriber-only articles — this book mirrors the free preview and links to the full post on Substack.
+
 > **Keep the empty `.nojekyll` file in the repo root.** GitHub Pages runs Jekyll on branch deployments by default, and Jekyll silently drops files that start with an underscore. Without it, `_coverpage.md` and `_sidebar.md` are never published, and the Docsify reading site breaks.
 
 ## Read it as a book
@@ -110,22 +112,22 @@ Enable [GitHub Pages](https://docs.github.com/en/pages) for this repo (source: `
 
 **Week 9 — Evaluating & Improving RAG**
 
-- Day 1 · [Evaluating RAG with a Golden Dataset](09-week-9/day-1-evaluating-rag-with.md)
-- Day 2 · [LLM-as-a-Judge : How Do We Use AI to Evaluate AI?](09-week-9/day-2-llm-as-a-judge-how-do.md)
-- Day 3 · [Introducing RAGAS Metrics](09-week-9/day-3-introducing-ragas-metrics.md)
-- Day 4 · [Evaluating RAG with RAGAS, Let's See the Results!](09-week-9/day-4-evaluating-rag-with.md)
-- Day 5 · [Reranking in RAG: Understanding Cross-Encoders](09-week-9/day-5-reranking-in-rag-understanding.md)
-- Day 6 · [RAG Reranking: From concept to code](09-week-9/day-6-rag-reranking-from-concept.md)
+- Day 1 · [Evaluating RAG with a Golden Dataset 🔒](09-week-9/day-1-evaluating-rag-with.md)
+- Day 2 · [LLM-as-a-Judge : How Do We Use AI to Evaluate AI? 🔒](09-week-9/day-2-llm-as-a-judge-how-do.md)
+- Day 3 · [Introducing RAGAS Metrics 🔒](09-week-9/day-3-introducing-ragas-metrics.md)
+- Day 4 · [Evaluating RAG with RAGAS, Let's See the Results! 🔒](09-week-9/day-4-evaluating-rag-with.md)
+- Day 5 · [Reranking in RAG: Understanding Cross-Encoders 🔒](09-week-9/day-5-reranking-in-rag-understanding.md)
+- Day 6 · [RAG Reranking: From concept to code 🔒](09-week-9/day-6-rag-reranking-from-concept.md)
 - Day 7 · [RAG Is More Than Retrieval](09-week-9/day-7-rag-is-more-than-retrieval.md)
 
 **Week 10 — Hands-On AI Agents**
 
-- Day 1 · [What Are AI Agents?](10-week-10/day-1-ai-agents-explained.md)
-- Day 2 · [Workflows vs. Agents: When Should AI Follow Rules or Make Decisions?](10-week-10/day-2-workflows-vs-agents.md)
-- Day 3 · [How Does an AI Agent Decide What to Do Next?](10-week-10/day-3-how-does-an-ai-agent.md)
-- Day 4 · [Does an AI Agent Remember What It Did Yesterday? Understanding Agent Memory](10-week-10/day-4-does-an-ai-agent-remember.md)
-- Day 5 · [Let's Build Our First AI Agent](10-week-10/day-5-lets-build-our-first.md)
-- Day 6 · [How Does an Autonomous AI Agent Work?](10-week-10/day-6-lets-build-a-simple.md)
+- Day 1 · [What Are AI Agents? 🔒](10-week-10/day-1-ai-agents-explained.md)
+- Day 2 · [Workflows vs. Agents: When Should AI Follow Rules or Make Decisions? 🔒](10-week-10/day-2-workflows-vs-agents.md)
+- Day 3 · [How Does an AI Agent Decide What to Do Next? 🔒](10-week-10/day-3-how-does-an-ai-agent.md)
+- Day 4 · [Does an AI Agent Remember What It Did Yesterday? Understanding Agent Memory 🔒](10-week-10/day-4-does-an-ai-agent-remember.md)
+- Day 5 · [Let's Build Our First AI Agent 🔒](10-week-10/day-5-lets-build-our-first.md)
+- Day 6 · [How Does an Autonomous AI Agent Work? 🔒](10-week-10/day-6-lets-build-a-simple.md)
 
 ## Rebuilding after a new week is published
 

@@ -2,6 +2,9 @@
 
 *October 30, 2026 · [Originally published on Substack](https://niharikabatra.substack.com/p/week-10-day-3-how-does-an-ai-agent)*
 
+> 🔒 **This is a subscriber-only article on Substack.**
+> This page mirrors the free preview — **[read the full article on Substack →](https://niharikabatra.substack.com/p/week-10-day-3-how-does-an-ai-agent)**
+
 Yesterday, we explored the difference between fixed workflows and agentic workflows.
 
 We saw that in a fixed workflow, we decide the steps in advance.

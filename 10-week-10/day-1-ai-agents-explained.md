@@ -2,6 +2,9 @@
 
 *October 28, 2026 · [Originally published on Substack](https://niharikabatra.substack.com/p/week-10-day-1-ai-agents-explained)*
 
+> 🔒 **This is a subscriber-only article on Substack.**
+> This page mirrors the free preview — **[read the full article on Substack →](https://niharikabatra.substack.com/p/week-10-day-1-ai-agents-explained)**
+
 We have spent the last few weeks exploring how AI retrieves information, generates answers, and evaluates whether those answers are good enough.
 
 But what happens when answering a question is not enough?

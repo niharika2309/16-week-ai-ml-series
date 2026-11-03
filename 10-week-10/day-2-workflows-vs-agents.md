@@ -2,6 +2,9 @@
 
 *October 29, 2026 · [Originally published on Substack](https://niharikabatra.substack.com/p/week-10-day-2-workflows-vs-agents)*
 
+> 🔒 **This is a subscriber-only article on Substack.**
+> This page mirrors the free preview — **[read the full article on Substack →](https://niharikabatra.substack.com/p/week-10-day-2-workflows-vs-agents)**
+
 Yesterday, we explored what makes an AI agent different from a chatbot.
 
 Today, let’s look at a decision that comes up when designing AI systems:

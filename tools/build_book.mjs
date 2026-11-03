@@ -98,6 +98,11 @@ function chapterDir(week) {
   return `${String(week).padStart(2, '0')}-week-${week}`
 }
 
+/** Lock marker for subscriber-only posts (the book can only mirror the free preview). */
+function lockMark(manifest, p) {
+  return manifest[p.id]?.subscriberOnly ? ' 🔒' : ''
+}
+
 function slugFromUrl(url) {
   try {
     const u = new URL(url)
@@ -329,7 +334,17 @@ async function buildPage(post, opts) {
 
   const sourceUrl = data.canonical_url || post.canonical_url
   const byline = `*${fmtDate(data.post_date || post.post_date)} · [Originally published on Substack](${sourceUrl})*`
-  return `# ${post.title}\n\n${byline}\n\n${text}\n`
+
+  // Subscriber-only posts: Substack serves anonymous readers just a preview.
+  // Detect that (words served vs the post's own wordcount) and link out to the full article.
+  const servedWords = text.split(/\s+/).filter(Boolean).length
+  const expected = data.wordcount || post.wordcount
+  const truncated =
+    data.audience !== 'everyone' && (expected ? servedWords < expected * 0.8 : servedWords < 200)
+  const callout = truncated
+    ? `\n> 🔒 **This is a subscriber-only article on Substack.**\n> This page mirrors the free preview — **[read the full article on Substack →](${sourceUrl})**\n\n`
+    : '\n'
+  return { md: `# ${post.title}\n\n${byline}\n${callout}${text}\n`, truncated }
 }
 
 // ---------------------------------------------------------------- main
@@ -372,7 +387,7 @@ async function main() {
       skipped++
     } else {
       console.log(`  building ${route}`)
-      const md = await buildPage(intro, { chapterDir: '00-introduction', dir: path.join(ROOT, 'assets/images/00-introduction') })
+      const { md } = await buildPage(intro, { chapterDir: '00-introduction', dir: path.join(ROOT, 'assets/images/00-introduction') })
       fs.mkdirSync(path.join(ROOT, '00-introduction'), { recursive: true })
       fs.writeFileSync(path.join(ROOT, route), md)
       fetched++
@@ -387,15 +402,17 @@ async function main() {
     for (const p of posts) {
       const s = p.slug.replace(/^week-\d+-day-\d+-/, '')
       const route = `${dir}/day-${p.wd.day}-${s}.md`
+      let truncated = manifest[p.id]?.subscriberOnly ?? false
       if (!has(p, route)) {
         console.log(`  building ${route}`)
-        const md = await buildPage(p, { chapterDir: dir, dir: path.join(ROOT, `assets/images/${dir}`) })
+        const page = await buildPage(p, { chapterDir: dir, dir: path.join(ROOT, `assets/images/${dir}`) })
         fs.mkdirSync(path.join(ROOT, dir), { recursive: true })
-        fs.writeFileSync(path.join(ROOT, route), md)
+        fs.writeFileSync(path.join(ROOT, route), page.md)
+        truncated = page.truncated
         fetched++
         await sleep(600) // be polite to the Substack API
       } else skipped++
-      manifest[p.id] = { file: route, slug: p.slug, title: p.title, date: p.post_date }
+      manifest[p.id] = { file: route, slug: p.slug, title: p.title, date: p.post_date, subscriberOnly: truncated }
     }
   }
 
@@ -406,7 +423,7 @@ async function main() {
     allPages.push({ file: `${dir}/index.md`, label: `Week ${week}${WEEK_THEMES[week] ? ` — ${WEEK_THEMES[week]}` : ''}` })
     for (const p of weekPosts.filter((q) => q.wd.week === week).sort((a, b) => a.wd.day - b.wd.day)) {
       const s = p.slug.replace(/^week-\d+-day-\d+-/, '')
-      allPages.push({ file: `${dir}/day-${p.wd.day}-${s}.md`, label: `Day ${p.wd.day} · ${p.wd.shortTitle}` })
+      allPages.push({ file: `${dir}/day-${p.wd.day}-${s}.md`, label: `Day ${p.wd.day} · ${p.wd.shortTitle}${lockMark(manifest, p)}` })
     }
   }
 
@@ -420,7 +437,7 @@ async function main() {
     sidebar.push(`- **Week ${week}${theme ? ` — ${theme}` : ''}**`)
     for (const p of posts) {
       const s = p.slug.replace(/^week-\d+-day-\d+-/, '')
-      sidebar.push(`  - [Day ${p.wd.day} · ${p.wd.shortTitle}](${dir}/day-${p.wd.day}-${s}.md)`)
+      sidebar.push(`  - [Day ${p.wd.day} · ${p.wd.shortTitle}${lockMark(manifest, p)}](${dir}/day-${p.wd.day}-${s}.md)`)
     }
     const index = [
       `# Week ${week}${theme ? ` — ${theme}` : ''}`,
@@ -429,7 +446,7 @@ async function main() {
       '',
       ...posts.map((p) => {
         const s = p.slug.replace(/^week-\d+-day-\d+-/, '')
-        return `- **Day ${p.wd.day}** — [${p.wd.shortTitle}](${dir}/day-${p.wd.day}-${s}.md)`
+        return `- **Day ${p.wd.day}** — [${p.wd.shortTitle}${lockMark(manifest, p)}](${dir}/day-${p.wd.day}-${s}.md)`
       }),
       '',
     ].join('\n')
@@ -453,6 +470,9 @@ async function main() {
     ...weeks.map((w) => `- [**Week ${w}${WEEK_THEMES[w] ? ` — ${WEEK_THEMES[w]}` : ''}**](${chapterDir(w)}/index.md)`),
     '',
     '> The series is ongoing — new weeks are added as they are published.',
+    ...(weekPosts.some((p) => manifest[p.id]?.subscriberOnly)
+      ? ['', '> 🔒 marks subscriber-only articles — this book mirrors the free preview and links to the full post on Substack.']
+      : []),
     '',
     '> **Keep the empty `.nojekyll` file in the repo root.** GitHub Pages runs Jekyll on branch deployments by default, and Jekyll silently drops files that start with an underscore. Without it, `_coverpage.md` and `_sidebar.md` are never published, and the Docsify reading site breaks.',
     '',
@@ -471,7 +491,7 @@ async function main() {
             .sort((a, b) => a.wd.day - b.wd.day)
             .map((p) => {
               const s = p.slug.replace(/^week-\d+-day-\d+-/, '')
-              return `- Day ${p.wd.day} · [${p.wd.shortTitle}](${chapterDir(w)}/day-${p.wd.day}-${s}.md)`
+              return `- Day ${p.wd.day} · [${p.wd.shortTitle}${lockMark(manifest, p)}](${chapterDir(w)}/day-${p.wd.day}-${s}.md)`
             })
             .join('\n')
       )

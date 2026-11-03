@@ -2,6 +2,9 @@
 
 *October 31, 2026 · [Originally published on Substack](https://niharikabatra.substack.com/p/week-10-day-4-does-an-ai-agent-remember)*
 
+> 🔒 **This is a subscriber-only article on Substack.**
+> This page mirrors the free preview — **[read the full article on Substack →](https://niharikabatra.substack.com/p/week-10-day-4-does-an-ai-agent-remember)**
+
 Yesterday, we explored how an AI agent makes decisions.
 
 It looks at the task, decides what to do next, checks the result, and continues until it reaches its goal.

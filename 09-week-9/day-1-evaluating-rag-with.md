@@ -2,6 +2,9 @@
 
 *October 21, 2026 · [Originally published on Substack](https://niharikabatra.substack.com/p/week-9-day-1-evaluating-rag-with)*
 
+> 🔒 **This is a subscriber-only article on Substack.**
+> This page mirrors the free preview — **[read the full article on Substack →](https://niharikabatra.substack.com/p/week-9-day-1-evaluating-rag-with)**
+
 Last week, we built a RAG application. It can retrieve information from our documents and use that information to generate an answer.
 
 But here’s a question we haven’t answered yet.

@@ -2,6 +2,9 @@
 
 *November 2, 2026 · [Originally published on Substack](https://niharikabatra.substack.com/p/week-10-day-6-lets-build-a-simple)*
 
+> 🔒 **This is a subscriber-only article on Substack.**
+> This page mirrors the free preview — **[read the full article on Substack →](https://niharikabatra.substack.com/p/week-10-day-6-lets-build-a-simple)**
+
 Yesterday, we explored how multiple LLM calls can work together to complete a task.
 
 But what if we stopped deciding every step in advance?

@@ -2,6 +2,9 @@
 
 *October 23, 2026 · [Originally published on Substack](https://niharikabatra.substack.com/p/week-9-day-3-introducing-ragas-metrics)*
 
+> 🔒 **This is a subscriber-only article on Substack.**
+> This page mirrors the free preview — **[read the full article on Substack →](https://niharikabatra.substack.com/p/week-9-day-3-introducing-ragas-metrics)**
+
 Yesterday, we explored LLM-as-a-Judge, where we use an LLM to evaluate another LLM’s answers against specific criteria. But that brings us to another important question.
 
 **What exactly should we evaluate in a RAG application?**
