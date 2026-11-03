@@ -15,6 +15,8 @@ This book collects the full series: each article is a page, each week is a chapt
 - [**Week 6 — Prompting & Working with LLMs**](06-week-6/index.md)
 - [**Week 7 — AI Agents: Tools, Action & Design**](07-week-7/index.md)
 - [**Week 8 — RAG — From Documents to Answers**](08-week-8/index.md)
+- [**Week 9 — Evaluating & Improving RAG**](09-week-9/index.md)
+- [**Week 10 — Hands-On AI Agents**](10-week-10/index.md)
 
 > The series is ongoing — new weeks are added as they are published.
 
@@ -105,6 +107,25 @@ Enable [GitHub Pages](https://docs.github.com/en/pages) for this repo (source: `
 - Day 5 · [Let's Build a Basic RAG Application](08-week-8/day-5-lets-build-a-basic-rag.md)
 - Day 6 · [Beyond Vector Search :How Does RAG Retrieve Information?](08-week-8/day-6-beyond-vector-search.md)
 - Day 7 · [Wrap-Up: Understanding RAG, One Piece at a Time](08-week-8/day-7-wrap-up-understanding.md)
+
+**Week 9 — Evaluating & Improving RAG**
+
+- Day 1 · [Evaluating RAG with a Golden Dataset](09-week-9/day-1-evaluating-rag-with.md)
+- Day 2 · [LLM-as-a-Judge : How Do We Use AI to Evaluate AI?](09-week-9/day-2-llm-as-a-judge-how-do.md)
+- Day 3 · [Introducing RAGAS Metrics](09-week-9/day-3-introducing-ragas-metrics.md)
+- Day 4 · [Evaluating RAG with RAGAS, Let's See the Results!](09-week-9/day-4-evaluating-rag-with.md)
+- Day 5 · [Reranking in RAG: Understanding Cross-Encoders](09-week-9/day-5-reranking-in-rag-understanding.md)
+- Day 6 · [RAG Reranking: From concept to code](09-week-9/day-6-rag-reranking-from-concept.md)
+- Day 7 · [RAG Is More Than Retrieval](09-week-9/day-7-rag-is-more-than-retrieval.md)
+
+**Week 10 — Hands-On AI Agents**
+
+- Day 1 · [What Are AI Agents?](10-week-10/day-1-ai-agents-explained.md)
+- Day 2 · [Workflows vs. Agents: When Should AI Follow Rules or Make Decisions?](10-week-10/day-2-workflows-vs-agents.md)
+- Day 3 · [How Does an AI Agent Decide What to Do Next?](10-week-10/day-3-how-does-an-ai-agent.md)
+- Day 4 · [Does an AI Agent Remember What It Did Yesterday? Understanding Agent Memory](10-week-10/day-4-does-an-ai-agent-remember.md)
+- Day 5 · [Let's Build Our First AI Agent](10-week-10/day-5-lets-build-our-first.md)
+- Day 6 · [How Does an Autonomous AI Agent Work?](10-week-10/day-6-lets-build-a-simple.md)
 
 ## Rebuilding after a new week is published
 

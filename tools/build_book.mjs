@@ -39,6 +39,8 @@ const WEEK_THEMES = {
   6: 'Prompting & Working with LLMs',
   7: 'AI Agents: Tools, Action & Design',
   8: 'RAG — From Documents to Answers',
+  9: 'Evaluating & Improving RAG',
+  10: 'Hands-On AI Agents',
 }
 
 // ---------------------------------------------------------------- helpers
@@ -89,6 +91,11 @@ function parseWeekDay(title) {
  *  site is served from the domain root, so links must resolve from "/"). */
 function relLink(_fromChapterDir, toRoute) {
   return toRoute
+}
+
+/** Chapter folder for a week number; handles double-digit weeks (10 -> "10-week-10"). */
+function chapterDir(week) {
+  return `${String(week).padStart(2, '0')}-week-${week}`
 }
 
 function slugFromUrl(url) {
@@ -348,7 +355,7 @@ async function main() {
   // route map for cross links
   for (const p of weekPosts) {
     const s = p.slug.replace(/^week-\d+-day-\d+-/, '')
-    routeBySlug.set(p.slug, `0${p.wd.week}-week-${p.wd.week}/day-${p.wd.day}-${s}.md`)
+    routeBySlug.set(p.slug, `${chapterDir(p.wd.week)}/day-${p.wd.day}-${s}.md`)
   }
   if (intro) routeBySlug.set(intro.slug, '00-introduction/index.md')
 
@@ -375,7 +382,7 @@ async function main() {
 
   // ---- week pages
   for (const week of weeks) {
-    const dir = `0${week}-week-${week}`
+    const dir = chapterDir(week)
     const posts = weekPosts.filter((p) => p.wd.week === week).sort((a, b) => a.wd.day - b.wd.day)
     for (const p of posts) {
       const s = p.slug.replace(/^week-\d+-day-\d+-/, '')
@@ -395,7 +402,7 @@ async function main() {
   // ---- reading order: intro, then per week [chapter index, day 1..N]
   if (intro) allPages.push({ file: '00-introduction/index.md', label: intro.title })
   for (const week of weeks) {
-    const dir = `0${week}-week-${week}`
+    const dir = chapterDir(week)
     allPages.push({ file: `${dir}/index.md`, label: `Week ${week}${WEEK_THEMES[week] ? ` — ${WEEK_THEMES[week]}` : ''}` })
     for (const p of weekPosts.filter((q) => q.wd.week === week).sort((a, b) => a.wd.day - b.wd.day)) {
       const s = p.slug.replace(/^week-\d+-day-\d+-/, '')
@@ -407,7 +414,7 @@ async function main() {
   const sidebar = []
   if (intro) sidebar.push(`- [Introduction](00-introduction/index.md)`)
   for (const week of weeks) {
-    const dir = `0${week}-week-${week}`
+    const dir = chapterDir(week)
     const theme = WEEK_THEMES[week] || ''
     const posts = weekPosts.filter((p) => p.wd.week === week).sort((a, b) => a.wd.day - b.wd.day)
     sidebar.push(`- **Week ${week}${theme ? ` — ${theme}` : ''}**`)
@@ -443,7 +450,7 @@ async function main() {
     'This book collects the full series: each article is a page, each week is a chapter.',
     '',
     ...(intro ? [`- [**Introduction — ${intro.title}**](00-introduction/index.md)`] : []),
-    ...weeks.map((w) => `- [**Week ${w}${WEEK_THEMES[w] ? ` — ${WEEK_THEMES[w]}` : ''}**](0${w}-week-${w}/index.md)`),
+    ...weeks.map((w) => `- [**Week ${w}${WEEK_THEMES[w] ? ` — ${WEEK_THEMES[w]}` : ''}**](${chapterDir(w)}/index.md)`),
     '',
     '> The series is ongoing — new weeks are added as they are published.',
     '',
@@ -464,7 +471,7 @@ async function main() {
             .sort((a, b) => a.wd.day - b.wd.day)
             .map((p) => {
               const s = p.slug.replace(/^week-\d+-day-\d+-/, '')
-              return `- Day ${p.wd.day} · [${p.wd.shortTitle}](0${w}-week-${w}/day-${p.wd.day}-${s}.md)`
+              return `- Day ${p.wd.day} · [${p.wd.shortTitle}](${chapterDir(w)}/day-${p.wd.day}-${s}.md)`
             })
             .join('\n')
       )

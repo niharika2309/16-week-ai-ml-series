@@ -340,5 +340,83 @@
     "slug": "week-8-day-7-wrap-up-understanding",
     "title": "Week 8, Day 7 - Wrap-Up: Understanding RAG, One Piece at a Time",
     "date": "2026-10-20T23:39:17.153Z"
+  },
+  "221561272": {
+    "file": "09-week-9/day-1-evaluating-rag-with.md",
+    "slug": "week-9-day-1-evaluating-rag-with",
+    "title": "Week 9, Day 1 - Evaluating RAG with a Golden Dataset",
+    "date": "2026-10-21T23:45:36.268Z"
+  },
+  "221712290": {
+    "file": "09-week-9/day-2-llm-as-a-judge-how-do.md",
+    "slug": "week-9-day-2-llm-as-a-judge-how-do",
+    "title": "Week 9, Day 2 - LLM-as-a-Judge : How Do We Use AI to Evaluate AI?",
+    "date": "2026-10-23T00:20:01.490Z"
+  },
+  "221862787": {
+    "file": "09-week-9/day-3-introducing-ragas-metrics.md",
+    "slug": "week-9-day-3-introducing-ragas-metrics",
+    "title": "Week 9, Day 3 - Introducing RAGAS Metrics",
+    "date": "2026-10-24T01:48:54.825Z"
+  },
+  "221972805": {
+    "file": "09-week-9/day-4-evaluating-rag-with.md",
+    "slug": "week-9-day-4-evaluating-rag-with",
+    "title": "Week 9, Day 4 - Evaluating RAG with RAGAS, Let's See the Results!",
+    "date": "2026-10-24T22:39:40.942Z"
+  },
+  "222113102": {
+    "file": "09-week-9/day-5-reranking-in-rag-understanding.md",
+    "slug": "week-9-day-5-reranking-in-rag-understanding",
+    "title": "Week 9, Day 5 - Reranking in RAG: Understanding Cross-Encoders",
+    "date": "2026-10-26T00:56:09.647Z"
+  },
+  "222272596": {
+    "file": "09-week-9/day-6-rag-reranking-from-concept.md",
+    "slug": "week-9-day-6-rag-reranking-from-concept",
+    "title": "Week 9, Day 6 - RAG Reranking: From concept to code",
+    "date": "2026-10-27T01:56:41.774Z"
+  },
+  "222386576": {
+    "file": "09-week-9/day-7-rag-is-more-than-retrieval.md",
+    "slug": "week-9-day-7-rag-is-more-than-retrieval",
+    "title": "Week 9, Day 7 - RAG Is More Than Retrieval",
+    "date": "2026-10-27T23:31:17.431Z"
+  },
+  "222419636": {
+    "file": "10-week-10/day-1-ai-agents-explained.md",
+    "slug": "week-10-day-1-ai-agents-explained",
+    "title": "Week 10, Day 1 - What Are AI Agents? ",
+    "date": "2026-10-28T17:50:35.479Z"
+  },
+  "222420145": {
+    "file": "10-week-10/day-2-workflows-vs-agents.md",
+    "slug": "week-10-day-2-workflows-vs-agents",
+    "title": "Week 10, Day 2 - Workflows vs. Agents: When Should AI Follow Rules or Make Decisions?",
+    "date": "2026-10-29T17:31:13.122Z"
+  },
+  "222836981": {
+    "file": "10-week-10/day-3-how-does-an-ai-agent.md",
+    "slug": "week-10-day-3-how-does-an-ai-agent",
+    "title": "Week 10, Day 3 - How Does an AI Agent Decide What to Do Next?",
+    "date": "2026-10-30T19:45:55.828Z"
+  },
+  "222976087": {
+    "file": "10-week-10/day-4-does-an-ai-agent-remember.md",
+    "slug": "week-10-day-4-does-an-ai-agent-remember",
+    "title": "Week 10, Day 4 - Does an AI Agent Remember What It Did Yesterday? Understanding Agent Memory",
+    "date": "2026-10-31T23:48:43.627Z"
+  },
+  "223092466": {
+    "file": "10-week-10/day-5-lets-build-our-first.md",
+    "slug": "week-10-day-5-lets-build-our-first",
+    "title": "Week 10, Day 5 -Let's Build Our First AI Agent",
+    "date": "2026-11-02T00:15:34.549Z"
+  },
+  "223258506": {
+    "file": "10-week-10/day-6-lets-build-a-simple.md",
+    "slug": "week-10-day-6-lets-build-a-simple",
+    "title": "Week 10, Day 6 - How Does an Autonomous AI Agent Work?",
+    "date": "2026-11-03T01:53:28.508Z"
   }
 }
