@@ -41,6 +41,9 @@ const WEEK_THEMES = {
   8: 'RAG — From Documents to Answers',
   9: 'Evaluating & Improving RAG',
   10: 'Hands-On AI Agents',
+  11: 'Agent Harnesses & MCP',
+  12: 'LLMOps — Observability & Tracing',
+  13: 'Guardrails, Hallucinations & AI Security',
 }
 
 // ---------------------------------------------------------------- helpers
@@ -115,17 +118,16 @@ function slugFromUrl(url) {
 // ---------------------------------------------------------------- archive
 
 async function fetchArchive() {
+  // Substack's archive API is cursor-paginated: ?limit=25&cursor=<opaque>
   const seen = new Map()
-  let offset = 0
-  let emptyStreak = 0
-  while (emptyStreak < 3) {
-    const d = await fetchJson(`${BASE}/api/v1/archive?sort=new&limit=50&offset=${offset}`)
-    const list = Array.isArray(d) ? d : (d?.data ?? [])
-    const fresh = list.filter((p) => !seen.has(p.id))
+  let cursor = null
+  for (let page = 0; page < 40; page++) {
+    const url = `${BASE}/api/v1/archive?sort=new&limit=25${cursor ? `&cursor=${encodeURIComponent(cursor)}` : ''}`
+    const d = await fetchJson(url)
+    const list = Array.isArray(d) ? d : (d?.posts ?? d?.data ?? [])
     for (const p of list) seen.set(p.id, p)
-    emptyStreak = fresh.length === 0 ? emptyStreak + 1 : 0
-    offset += 20 // overlapping windows absorb server-side paging quirks
-    if (offset > 500) break
+    cursor = d?.nextCursor
+    if (!cursor || list.length === 0) break
   }
   return [...seen.values()].sort((a, b) => new Date(a.post_date) - new Date(b.post_date))
 }

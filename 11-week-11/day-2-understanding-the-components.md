@@ -19,4 +19,4 @@ Imagine asking an AI agent:
 
 For the agent to complete this task, several things need to work together.
 
-[![article image](https://substackcdn.com/image/fetch/$s_!i0Za!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3205e5b9-7c54-4721-98b4-a52d0399215e_1752x930.png)](https://substackcdn.com/image/fetch/$s_!i0Za!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3205e5b9-7c54-4721-98b4-a52d0399215e_1752x930.png)
+![](../assets/images/11-week-11/3205e5b9-7c54-4721-98b4-a52d0399215e.jpeg)

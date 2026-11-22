@@ -8,7 +8,7 @@ This week, we’re going one level deeper.
 
 And don’t worry. The word harness sounds much more complicated than the concept itself.
 
-## First, a little AI news
+### First, a little AI news
 
 Have you noticed that companies are talking more about how to build AI agents, not just how to make their models smarter?
 
@@ -19,8 +19,7 @@ In February 2026, OpenAI published an article titled Harness Engineering: Levera
 And this growing focus on harness engineering is a signal that building reliable AI agents involves much more than choosing a powerful LLM.
 
 ---
-
-## So, what is an agent harness?
+### So, what is an agent harness?
 
 Imagine asking an AI agent to find an email and draft a reply.
 
@@ -32,9 +31,9 @@ But it also needs a way to access your emails, execute actions, receive results,
 
 Think of it as the setup that allows an LLM to operate as an agent.
 
-[![article image](https://substackcdn.com/image/fetch/$s_!WqHD!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3600e006-b2d5-4081-bcb0-adcd06d2fc26_1752x714.png)](https://substackcdn.com/image/fetch/$s_!WqHD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3600e006-b2d5-4081-bcb0-adcd06d2fc26_1752x714.png)
+![](../assets/images/11-week-11/3600e006-b2d5-4081-bcb0-adcd06d2fc26.jpeg)
 
-## Why should we care?
+### Why should we care?
 
 Because even a very capable LLM can struggle when it doesn’t have the right tools, context, or execution environment.
 
@@ -49,5 +48,3 @@ No need to be intimidated by the terminology.
 We’re going to break it down, one component at a time.
 
 Tomorrow: What’s actually inside an agent harness?
-
-Thanks for reading! Subscribe for free to receive new posts and support my work.

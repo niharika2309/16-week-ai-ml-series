@@ -487,5 +487,138 @@
     "title": "Week 10, Day 6 - How Does an Autonomous AI Agent Work?",
     "date": "2026-11-03T01:53:28.508Z",
     "subscriberOnly": true
+  },
+  "223382918": {
+    "file": "10-week-10/day-7-from-chatbots-to-autonomous.md",
+    "slug": "week-10-day-7-from-chatbots-to-autonomous",
+    "title": "Week 10, Day 7 - From Chatbots to Autonomous AI Agents",
+    "date": "2026-11-04T00:35:04.845Z",
+    "subscriberOnly": false
+  },
+  "223541405": {
+    "file": "11-week-11/day-1-agent-harness-its-not.md",
+    "slug": "week-11-day-1-agent-harness-its-not",
+    "title": "Week 11, Day 1 - Agent Harness : It's Not as Complicated as It Sounds",
+    "date": "2026-11-04T21:59:20.776Z",
+    "subscriberOnly": false
+  },
+  "223699123": {
+    "file": "11-week-11/day-2-understanding-the-components.md",
+    "slug": "week-11-day-2-understanding-the-components",
+    "title": "Week 11, Day 2 - Understanding the Components of an AI Agent Harness",
+    "date": "2026-11-05T23:49:27.790Z",
+    "subscriberOnly": true
+  },
+  "223841548": {
+    "file": "11-week-11/day-3-mcp-how-ai-agents-connect.md",
+    "slug": "week-11-day-3-mcp-how-ai-agents-connect",
+    "title": "Week 11, Day 3 - MCP : How AI Agents Connect to the Outside World",
+    "date": "2026-11-06T23:58:05.605Z",
+    "subscriberOnly": false
+  },
+  "223959107": {
+    "file": "11-week-11/day-4-lets-build-our-own.md",
+    "slug": "week-11-day-4-lets-build-our-own",
+    "title": "Week 11, Day 4: Let's Build Our Own MCP Server",
+    "date": "2026-11-08T03:43:47.272Z",
+    "subscriberOnly": true
+  },
+  "224057315": {
+    "file": "11-week-11/day-5-mcp-vs-api-does-an.md",
+    "slug": "week-11-day-5-mcp-vs-api-does-an",
+    "title": "Week 11, Day 5 - MCP vs API : Does an AI Agent Really Need MCP?",
+    "date": "2026-11-08T20:08:51.706Z",
+    "subscriberOnly": true
+  },
+  "224253264": {
+    "file": "11-week-11/day-6-connecting-our-ai-agent.md",
+    "slug": "week-11-day-6-connecting-our-ai-agent",
+    "title": "Week 11, Day 6 - Connecting Our AI Agent to an MCP Server",
+    "date": "2026-11-10T03:31:02.209Z",
+    "subscriberOnly": true
+  },
+  "224386607": {
+    "file": "11-week-11/day-7-bringing-ai-agents.md",
+    "slug": "week-11-day-7-bringing-ai-agents",
+    "title": "Week 11, Day 7 - Bringing AI Agents, Harnesses and MCP Together",
+    "date": "2026-11-11T00:56:49.660Z",
+    "subscriberOnly": true
+  },
+  "224517686": {
+    "file": "12-week-12/day-1-what-happens-after.md",
+    "slug": "week-12-day-1-what-happens-after",
+    "title": "Week 12, Day 1 - What Happens After We Build an AI Application?",
+    "date": "2026-11-12T01:14:43.345Z",
+    "subscriberOnly": false
+  },
+  "224693722": {
+    "file": "12-week-12/day-2-understanding-traces.md",
+    "slug": "week-12-day-2-understanding-traces",
+    "title": "Week 12, Day 2 - Understanding Traces and Spans in LLM Applications",
+    "date": "2026-11-13T02:29:18.502Z",
+    "subscriberOnly": true
+  },
+  "224835771": {
+    "file": "12-week-12/day-3-meet-langfuse-a-window.md",
+    "slug": "week-12-day-3-meet-langfuse-a-window",
+    "title": "Week 12, Day 3 - Meet Langfuse: A Window into Your AI Application",
+    "date": "2026-11-14T02:23:25.274Z",
+    "subscriberOnly": true
+  },
+  "224967129": {
+    "file": "12-week-12/day-4-bringing-observability.md",
+    "slug": "week-12-day-5-bringing-observability",
+    "title": "Week 12 , Day 4 - Bringing Observability Into an AI Agent",
+    "date": "2026-11-14T23:11:56.478Z",
+    "subscriberOnly": true
+  },
+  "225074450": {
+    "file": "12-week-12/day-5-what-happens-when-your.md",
+    "slug": "week-12-day-5-what-happens-when-your",
+    "title": "Week 12, Day 5 - What Happens When Your AI Application Gets More Traffic?",
+    "date": "2026-11-15T19:17:27.085Z",
+    "subscriberOnly": true
+  },
+  "225272612": {
+    "file": "12-week-12/day-6-how-do-we-make-ai-applications.md",
+    "slug": "week-12-day-6-how-do-we-make-ai-applications",
+    "title": "Week 12, Day 6 - How Do We Make AI Applications Reliable?",
+    "date": "2026-11-17T00:02:51.427Z",
+    "subscriberOnly": true
+  },
+  "225415651": {
+    "file": "12-week-12/day-7-wrapping-up-llmops.md",
+    "slug": "week-12-day-7-wrapping-up-llmops",
+    "title": "Week 12, Day 7- Wrapping Up LLMOps :From Building AI to Running It in Production",
+    "date": "2026-11-18T00:40:52.914Z",
+    "subscriberOnly": true
+  },
+  "225497275": {
+    "file": "13-week-13/day-1-understanding-guardrails.md",
+    "slug": "week-13-day-1-understanding-guardrails",
+    "title": "Week 13, Day 1 - Understanding Guardrails in AI",
+    "date": "2026-11-19T02:27:49.659Z",
+    "subscriberOnly": true
+  },
+  "225733662": {
+    "file": "13-week-13/day-2-why-ai-hallucinates.md",
+    "slug": "week-13-day-2-why-ai-hallucinates",
+    "title": "Week 13 – Day 2: Why AI Hallucinates (And How to Make It More Reliable)",
+    "date": "2026-11-20T01:01:12.038Z",
+    "subscriberOnly": true
+  },
+  "225800573": {
+    "file": "13-week-13/day-3-how-do-we-protect-sensitive.md",
+    "slug": "week-13-day-3-how-do-we-protect-sensitive",
+    "title": "Week 13, Day 3 - How Do We Protect Sensitive Information in AI Applications?",
+    "date": "2026-11-20T16:43:06.618Z",
+    "subscriberOnly": true
+  },
+  "225986715": {
+    "file": "13-week-13/day-4-prompt-injection-when.md",
+    "slug": "week-13-day-4-prompt-injection-when",
+    "title": "Week 13, Day 4 - Prompt Injection :When Users Trick AI Into Ignoring Its Instructions",
+    "date": "2026-11-22T00:18:26.779Z",
+    "subscriberOnly": true
   }
 }
