@@ -620,5 +620,19 @@
     "title": "Week 13, Day 4 - Prompt Injection :When Users Trick AI Into Ignoring Its Instructions",
     "date": "2026-11-22T00:18:26.779Z",
     "subscriberOnly": true
+  },
+  "226118207": {
+    "file": "13-week-13/day-5-detecting-prompt-injection.md",
+    "slug": "week-13-day-5-detecting-prompt-injection",
+    "title": "Week 13, Day 5 - Detecting Prompt Injection – Regex, Filtering & Multilingual Defense",
+    "date": "2026-11-23T00:08:48.463Z",
+    "subscriberOnly": true
+  },
+  "226280365": {
+    "file": "13-week-13/day-6-your-pdf-is-hiding.md",
+    "slug": "week-13-day-6-your-pdf-is-hiding",
+    "title": "Week 13, Day 6 - Your PDF Is Hiding Instructions: Securing AI Document Processing with OCR",
+    "date": "2026-11-24T01:21:15.566Z",
+    "subscriberOnly": true
   }
 }
