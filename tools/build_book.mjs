@@ -6,8 +6,9 @@
  *   Each week    -> one chapter (0N-week-N/ folder + index.md)
  *
  * Usage:
- *   node build_book.mjs            # incremental: skips articles already in the manifest
- *   node build_book.mjs --force    # re-fetch + rewrite everything
+ *   node build_book.mjs                          # incremental: skips articles already in the manifest
+ *   node build_book.mjs --force                  # re-fetch + rewrite everything
+ *   node build_book.mjs --extra slug1,slug2      # include posts the archive API hasn't indexed yet
  *
  * Env:
  *   PUB  Substack subdomain (default: niharikabatra)
@@ -26,6 +27,12 @@ const BASE = `https://${PUB}.substack.com`
 const UA = { 'User-Agent': 'Mozilla/5.0 (compatible; book-builder/1.0)' }
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const FORCE = process.argv.includes('--force')
+const EXTRA_ARG = process.argv.find((a) => a.startsWith('--extra'))
+const EXTRA_SLUGS = EXTRA_ARG
+  ? EXTRA_ARG.includes('=')
+    ? EXTRA_ARG.split('=')[1].split(',').filter(Boolean)
+    : (process.argv[process.argv.indexOf(EXTRA_ARG) + 1] || '').split(',').filter(Boolean)
+  : []
 const TIMEZONE = 'America/New_York' // Substack's display timezone
 const SERIES_SECTION = '16-week-aiml-series'
 const INTRO_TITLE_PREFIX = '16 Weeks to AI'
@@ -358,6 +365,14 @@ async function main() {
 
   console.log('Fetching archive…')
   const archive = await fetchArchive()
+  // Posts the archive API hasn't indexed yet (just-published) can be forced in by slug.
+  for (const slug of EXTRA_SLUGS) {
+    if (archive.some((p) => p.slug === slug)) continue
+    const d = await fetchSingle(slug)
+    archive.push({ ...d, section_slug: d.section_slug || SERIES_SECTION })
+    archive.sort((a, b) => new Date(a.post_date) - new Date(b.post_date))
+    console.log(`  extra post: ${d.title}`)
+  }
   const series = archive.filter(
     (p) => p.section_slug === SERIES_SECTION || p.title.startsWith(INTRO_TITLE_PREFIX)
   )
